@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "842814119517",
+    "firebase_url": "https://rakoon-indian-food.firebaseio.com",
+    "project_id": "rakoon-indian-food",
+    "storage_bucket": "rakoon-indian-food.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842814119517:android:d3a7e56253402e77",
+        "android_client_info": {
+          "package_name": "com.rakoon.restaurant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "842814119517-kjhm7tdin9u0k2pbmh4bhh50t25i4nph.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYEol0Aqgve_9jbgbAHT2-fkAB3JsXK-E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842814119517:android:7e7250e608dfe22e",
+        "android_client_info": {
+          "package_name": "com.rakoon.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "842814119517-kjhm7tdin9u0k2pbmh4bhh50t25i4nph.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYEol0Aqgve_9jbgbAHT2-fkAB3JsXK-E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

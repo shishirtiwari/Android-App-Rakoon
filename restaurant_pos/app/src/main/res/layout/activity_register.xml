@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:id="@+id/mainlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/_20sdp"
+                    android:paddingRight="@dimen/_20sdp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_80sdp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/logo_signin" />
+
+                    <com.rakoon.restaurant.view.MyEditText
+                        android:id="@+id/name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:background="@drawable/bottomline_selector"
+                        android:hint="Enter first name"
+                        android:maxLength="@integer/length100"
+                        android:paddingLeft="@dimen/_5sdp"
+                        android:paddingTop="@dimen/_10sdp"
+                        android:paddingRight="@dimen/_10sdp"
+                        android:paddingBottom="@dimen/_10sdp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/_12sdp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginRight="@dimen/_10sdp"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/bottomline_selector">
+
+                            <Spinner
+                                android:id="@+id/country"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                            </Spinner>
+
+                        </LinearLayout>
+
+                        <com.rakoon.restaurant.view.MyEditText
+                            android:id="@+id/mobileno"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/bottomline_selector"
+                            android:hint="Enter mobile no"
+                            android:inputType="number"
+                            android:maxLength="10"
+                            android:paddingLeft="@dimen/_5sdp"
+                            android:paddingTop="@dimen/_10sdp"
+                            android:paddingRight="@dimen/_10sdp"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:singleLine="true"
+                            android:textSize="@dimen/_12sdp" />
+
+                    </LinearLayout>
+
+
+                    <com.rakoon.restaurant.view.MyEditText
+                        android:id="@+id/emailid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:background="@drawable/bottomline_selector"
+                        android:hint="Enter email-id"
+                        android:inputType="textEmailAddress"
+                        android:maxLength="@integer/length100"
+                        android:paddingLeft="@dimen/_5sdp"
+                        android:paddingTop="@dimen/_10sdp"
+                        android:paddingRight="@dimen/_10sdp"
+                        android:paddingBottom="@dimen/_10sdp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/_12sdp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:orientation="horizontal">
+
+                        <com.rakoon.restaurant.view.MyEditText
+                            android:id="@+id/pincode"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/bottomline_selector"
+                            android:hint="Enter pincode"
+                            android:inputType="number"
+                            android:maxLength="10"
+                            android:paddingLeft="@dimen/_5sdp"
+                            android:paddingTop="@dimen/_10sdp"
+                            android:paddingRight="@dimen/_10sdp"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:singleLine="true"
+                            android:textSize="@dimen/_12sdp" />
+
+                        <com.rakoon.restaurant.view.MyEditText
+                            android:id="@+id/street"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/bottomline_selector"
+                            android:hint="Enter street"
+                            android:maxLength="@integer/length100"
+                            android:paddingLeft="@dimen/_5sdp"
+                            android:paddingTop="@dimen/_10sdp"
+                            android:paddingRight="@dimen/_10sdp"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:singleLine="true"
+                            android:textSize="@dimen/_12sdp" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:orientation="horizontal">
+
+                        <com.rakoon.restaurant.view.MyEditText
+                            android:id="@+id/state"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/_10sdp"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/bottomline_selector"
+                            android:hint="Enter state"
+                            android:maxLength="@integer/length100"
+                            android:paddingLeft="@dimen/_5sdp"
+                            android:paddingTop="@dimen/_10sdp"
+                            android:paddingRight="@dimen/_10sdp"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:singleLine="true"
+                            android:textSize="@dimen/_12sdp" />
+
+
+                        <com.rakoon.restaurant.view.MyEditText
+                            android:id="@+id/city"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/bottomline_selector"
+                            android:hint="Enter city"
+                            android:maxLength="@integer/length100"
+                            android:paddingLeft="@dimen/_5sdp"
+                            android:paddingTop="@dimen/_10sdp"
+                            android:paddingRight="@dimen/_10sdp"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:singleLine="true"
+                            android:textSize="@dimen/_12sdp" />
+
+                    </LinearLayout>
+                    <!-- <com.restaurant.pos.view.MyEditText
+                         android:maxLength="@integer/length100"
+                         android:id="@+id/country"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="@dimen/_20sdp"
+                         android:layout_marginRight="@dimen/_20sdp"
+                         android:background="@drawable/bottomline_selector"
+                         android:hint="Enter country code"
+                         android:paddingBottom="@dimen/_10sdp"
+                         android:paddingLeft="@dimen/_5sdp"
+                         android:paddingRight="@dimen/_10sdp"
+                         android:paddingTop="@dimen/_10sdp"
+                         android:singleLine="true"
+                         android:textSize="@dimen/_12sdp" />
+ -->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:orientation="horizontal">
+
+                        <com.rakoon.restaurant.view.MyEditText
+                            android:id="@+id/password"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/_10sdp"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/bottomline_selector"
+                            android:hint="@string/password_ar"
+                            android:inputType="textPassword"
+                            android:maxLength="@integer/length15"
+                            android:paddingLeft="@dimen/_5sdp"
+                            android:paddingTop="@dimen/_10sdp"
+                            android:paddingRight="@dimen/_10sdp"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:singleLine="true"
+                            android:textSize="@dimen/_12sdp" />
+
+                        <com.rakoon.restaurant.view.MyEditText
+                            android:id="@+id/confirmpassword"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/bottomline_selector"
+                            android:hint="@string/confirmpassword_ar"
+                            android:inputType="textPassword"
+                            android:maxLength="@integer/length15"
+                            android:paddingLeft="@dimen/_5sdp"
+                            android:paddingTop="@dimen/_10sdp"
+                            android:paddingRight="@dimen/_10sdp"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:singleLine="true"
+                            android:textSize="@dimen/_12sdp" />
+
+                    </LinearLayout>
+
+                    <com.rakoon.restaurant.view.MyTextView
+                        android:id="@+id/terms"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:text="By signing up you agree with our Terms of Use"
+                        android:textSize="@dimen/_12sdp" />
+
+                    <com.rakoon.restaurant.view.MyTextView
+                        android:id="@+id/signup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:layout_marginBottom="@dimen/_20sdp"
+                        android:background="@drawable/textselector2"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:paddingTop="@dimen/_7sdp"
+                        android:paddingRight="@dimen/_10sdp"
+                        android:paddingBottom="@dimen/_7sdp"
+                        android:text="Register"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_14sdp" />
+
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/signin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:paddingTop="@dimen/_10sdp"
+            android:paddingBottom="@dimen/_10sdp">
+
+            <com.rakoon.restaurant.view.MyTextView
+                android:id="@+id/account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="have an account? "
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp" />
+
+            <com.rakoon.restaurant.view.MyTextView
+                android:id="@+id/join"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Login"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

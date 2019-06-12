@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iconchild"
+        android:layout_width="@dimen/_20sdp"
+        android:adjustViewBounds="true"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:src="@android:drawable/ic_media_next"
+        android:visibility="invisible" />
+
+    <com.rakoon.restaurant.view.MyTextView
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:id="@+id/expandedListItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/_7sdp"
+        android:paddingLeft="@dimen/_7sdp"
+        android:paddingRight="@dimen/_7sdp"
+        android:paddingTop="@dimen/_7sdp"
+        android:textSize="@dimen/_14sdp" />
+
+</LinearLayout>

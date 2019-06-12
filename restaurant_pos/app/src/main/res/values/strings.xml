@@ -1,0 +1,492 @@
+<resources>
+    <string name="app_name">Rakoon Restaurants</string>
+    <string name="english">English</string>
+    <string name="arabic">العربية</string>
+
+    <string name="skip_en">SKIP</string>
+    <string name="skip_ar">تخطي</string>
+
+    <string name="oops_en">Oop\'s something went wrong!!!</string>
+    <string name="oops_ar">للأسف حدث خطأ ما</string>
+
+    <string name="internet_message_en">Please enable internet connection</string>
+    <string name="enable_en">Enable</string>
+
+    <string name="internet_message_ar">يرجى تمكين اتصال الإنترنت</string>
+    <string name="enable_ar">مكن</string>
+
+    <string name="backmessage_en">Please click back again to exit</string>
+    <string name="backmessage_ar">يرجى النقر مرة أخرى للخروج</string>
+
+    <string name="backactivity_en">Please click back again to dashboard</string>
+    <string name="backactivity_ar">الرجاء النقر مرة أخرى للرجوع إلى لوحة المعلومات</string>
+
+    <string name="whatisplan_en">What is your plan?</string>
+    <string name="whatisplan_ar">ما هي خطتك؟</string>
+
+    <string name="rakoonlocation_en">Rakoon Location</string>
+    <string name="rakoonlocation_pickup_ar">الافرع</string>
+    <string name="rakoonlocation_delivery_ar">مناطق التوصيل</string>
+    <string name="rakoonmenu_en">RAKOON MENU</string>
+    <string name="rakoonmenu_ar">قائمة الطعام</string>
+
+    <string name="search_en">Search</string>
+    <string name="search_ar">بحث</string>
+
+    <string name="selectarea_msg_en">Please select an area</string>
+    <string name="selectarea_msg_ar">يرجى اختيار منطقة</string>
+
+    <string name="rakoonservice_en">CHOOSE RAKOON INDIAN FOOD SERVICE AVAILABLE AREA</string>
+    <string name="rakoonservice_delivery_ar">اختر منطقتك لخدمة التوصيل</string>
+    <string name="rakoonservice_pickup_ar">اختر الفرع المراد الاستلام منه</string>
+
+    <string name="find_en">FIND</string>
+    <string name="find_ar">اجد</string>
+
+    <string name="open_en">Open</string>
+    <string name="open_ar">يفتح</string>
+
+    <string name="close_en">Close</string>
+    <string name="close_ar">يغلق</string>
+
+    <string name="select_search_en">Select or Search Area</string>
+    <string name="select_search_ar">حدد أو ابحث في المنطقة</string>
+
+    <string name="booktable_en">Book a Table</string>
+    <string name="booktable_ar">احجز طاولة</string>
+
+    <string name="openinghours_en">Opening Hours</string>
+    <string name="openinghours_ar">ساعات الافتتاح</string>
+
+    <string name="firstname_en">First name</string>
+    <string name="firstname_ar">الاسم الاول</string>
+
+    <string name="lastname_en">Last name</string>
+    <string name="lastname_ar">الاسم الأخير</string>
+
+    <string name="email_en">Email</string>
+    <string name="email_ar">البريد الإلكتروني</string>
+
+    <string name="mobileno_en">Mobile no</string>
+    <string name="mobileno_ar">رقم المحمول</string>
+
+    <string name="branch_en">Branch</string>
+    <string name="branch_ar">الفرع المطلوب</string>
+
+    <string name="people_en">People</string>
+    <string name="people_ar">اشخاص</string>
+
+    <string name="person_en">Person</string>
+    <string name="person_ar">شخص</string>
+
+    <string name="selectdatetime_en">Select Date and Time</string>
+    <string name="selectdatetime_ar">حدد التاريخ والوقت</string>
+
+    <string name="discountcode_en">Discount Code</string>
+    <string name="discountcode_ar">الرقم التسلسلي للخصم</string>
+
+    <string name="discountprice_en">Discount(%)</string>
+    <string name="discountprice_ar">(%)الخصم</string>
+
+    <string name="validstartfrom_en">Valid Starts From</string>
+    <string name="validstartfrom_ar">صلاحية تبدأ من</string>
+
+    <string name="validendto_en">Valid End To</string>
+    <string name="validendto_ar">صالحة لنهاية</string>
+
+    <string name="deliveryfee_en">Delivery Fee</string>
+    <string name="deliveryfee_ar">رسوم التوصيل</string>
+
+    <string-array name="option" />
+    <string-array name="settings" />
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="dashboard_en">Dashboard</string>
+    <string name="dashboard_ar">القائمة الرئيسيه</string>
+
+    <string name="currentorder_en">Current Orders</string>
+    <string name="currentorder_ar">الطلبات الحالية</string>
+
+    <string name="futureorders_en">Future Orders</string>
+    <string name="futureorders_ar">الطلبات المستقبلية</string>
+
+    <string name="ordershistory_en">Orders History</string>
+    <string name="ordershistory_ar">جميع الطلبيات</string>
+
+    <string name="settings_en">Settings</string>
+    <string name="settings_ar">إعدادات</string>
+
+    <string name="notifications_en">Notifications</string>
+    <string name="notifications_ar">اشعارات</string>
+
+    <string name="logout_en">Logout</string>
+    <string name="logout_ar">الخروج</string>
+
+    <string name="changelanguage_en">Change Languages</string>
+    <string name="changelanguage_ar">اللغة</string>
+
+    <string name="firstname_valid_en">Please enter first name</string>
+    <string name="firstname_valid_ar">يرجى إدخال الاسم الأول</string>
+
+    <string name="lastname_valid_en">Please enter last name</string>
+    <string name="lastname_valid_ar">يرجى إدخال الاسم الأخير</string>
+
+    <string name="name_valid_en">Please enter name</string>
+    <string name="name_valid_ar">يرجى إدخال الاسم</string>
+
+    <string name="email_valid_en">Please enter Email ID</string>
+    <string name="email_valid_ar">الرجاء إدخال البريد الإلكتروني</string>
+
+    <string name="email_correct_en">Please enter valid Email ID</string>
+    <string name="email_correct_ar">الرجاء إدخال البريد الإلكتروني الصحيح</string>
+
+    <string name="email_num_en">Please enter Email ID or mobile number</string>
+    <string name="email_num_ar">يرجى إدخال البريد الإلكتروني أو رقم الهاتف المحمول</string>
+
+    <string name="email_num_correct_en">Please enter correct Email ID or mobile number</string>
+    <string name="email_num_correct_ar">يرجى إدخال البريد الإلكتروني الصحيح أو رقم الهاتف المحمول</string>
+
+    <string name="mobileno_msg_en">Please enter mobile no</string>
+    <string name="mobileno_msg_ar">يرجى إدخال رقم الجوال</string>
+
+    <string name="mobileno_valid_en">Please enter valid 10 digit mobile number</string>
+    <string name="mobileno_valid_ar">يرجى إدخال رقم هاتف محمول صحيح مكون من 10 أرقام</string>
+
+    <string name="select_people_en">Please select people</string>
+    <string name="select_people_ar">يرجى اختيار الناس</string>
+
+    <string name="select_branch_en">Please select branch</string>
+    <string name="select_branch_ar">يرجى اختيار الفرع</string>
+
+    <string name="select_date_en">Please select date</string>
+    <string name="select_date_ar">يرجى تحديد التاريخ</string>
+
+    <string name="select_time_en">Please select time</string>
+    <string name="select_time_ar">يرجى تحديد الوقت</string>
+
+    <string name="password_valid_en">Please enter Password</string>
+    <string name="password_valid_ar">يرجى إدخال كلمة المرور</string>
+
+    <string name="password_correct_en">You have to enter at least 6 digit!</string>
+    <string name="password_correct_ar">يجب عليك إدخال 6 أرقام على الأقل!</string>
+
+    <string name="password_match_en">Password should be match</string>
+    <string name="password_match_ar">كلمة المرور يجب أن تكون متطابقة</string>
+
+    <string name="city_valid_en">Please enter city</string>
+    <string name="city_valid_ar">من فضلك ادخل المدينة</string>
+
+    <string name="state_valid_en">Please enter state</string>
+    <string name="state_valid_ar">يرجى إدخال الدولة</string>
+
+    <string name="country_valid_en">Please enter country(Like Jordan (+962))</string>
+    <string name="country_valid_ar">الرجاء إدخال الدولة (مثل الأردن (+962))</string>
+
+    <string name="street_valid_en">Please enter street</string>
+    <string name="street_valid_ar">يرجى إدخال الشارع</string>
+
+    <string name="login_en">Login</string>
+    <string name="login_ar">تسجيل الدخول</string>
+
+    <string name="register_en">Register</string>
+    <string name="register_ar">تسجيل</string>
+
+    <string name="forgot_en">Forgot password</string>
+    <string name="forgot_ar">هل نسيت كلمة المرور</string>
+
+    <string name="username_en">User Name</string>
+    <string name="username_ar">اسم المستخدم</string>
+
+    <string name="city_en">City</string>
+    <string name="city_ar">مدينة</string>
+
+    <string name="state_en">State</string>
+    <string name="state_ar">المحافظة</string>
+
+    <string name="country_en">Country</string>
+    <string name="country_ar">بلد</string>
+
+    <string name="street_en">Street</string>
+    <string name="street_ar">شارع</string>
+
+    <string name="password_en">Password</string>
+    <string name="password_ar">كلمه السر</string>
+
+    <string name="pincode_en">Building number</string>
+    <string name="pincode_ar">رقم المبنى</string>
+
+    <string name="confirmpassword_en">Confirm Password</string>
+    <string name="confirmpassword_ar">تأكيد كلمة المرور</string>
+
+    <string name="donothaveaccount_en">Don\'t have an account?</string>
+    <string name="donothaveaccount_ar">ليس لديك حساب؟</string>
+
+    <string name="haveaccount_en">have an account?</string>
+    <string name="haveaccount_ar">لديك حساب؟</string>
+
+    <string name="joinnow_en">JOIN NOW</string>
+    <string name="joinnow_ar">انضم الان</string>
+
+    <string name="terms_en">By signing up you agree with our Terms of Use</string>
+    <string name="terms_ar">عن طريق التسجيل أنت توافق على شروط الاستخدام الخاصة بنا</string>
+
+    <string name="termsofuse_en">Terms of Use</string>
+    <string name="termsofuse_ar">تعليمات الاستخدام</string>
+
+    <string name="addtocart_en">ADD THIS DISH TO CART</string>
+    <string name="addtocart_ar">أضف هذا الطبق إلى السلة</string>
+
+    <string name="readaboutdish_en">READ ABOUT THIS DISH?</string>
+    <string name="readaboutdish_ar">أقرأ عن هذا الطبق؟</string>
+
+    <string name="optional_modification_en">Optional Modification</string>
+    <string name="optional_modification_ar">تعديل اختياري</string>
+
+    <string name="required_modification_en">Required Modification</string>
+    <string name="required_modification_ar">التعديل المطلوب</string>
+
+    <string name="next_en">NEXT</string>
+    <string name="next_ar">التالى</string>
+
+    <string name="totalprice_en">Total Price</string>
+    <string name="totalprice_ar">مبلغ الاجمالي</string>
+
+    <string name="reqiredmsg_en">This is required modification please select any one.</string>
+    <string name="reqiredmsg_ar">يجب تحديد نوعية الصنف يرجى اختيار نوعية الصنف.</string>
+
+    <string name="itemaddtedincart_en">Item added successfully in cart.</string>
+    <string name="itemaddtedincart_ar">تمت إضافة الطبق بنجاح في سلة التسوق.</string>
+
+    <string name="proceedtocheckout_en">CHECKOUT</string>
+    <string name="proceedtocheckout_ar">الدفع</string>
+
+    <string name="cartempty_en">Cart is empty, please add items in the cart</string>
+    <string name="cartempty_ar">العربة فارغة ، يرجى إضافة عناصر في سلة التسوق</string>
+
+    <string name="cartitems_en">Cart Items</string>
+    <string name="cartitems_ar">عناصر السلة</string>
+
+    <string name="quantity_en">Quantity</string>
+    <string name="quantity_ar">كمية</string>
+
+    <string name="itemprice_en">Item Price</string>
+    <string name="itemprice_ar">سعر الطبق</string>
+
+    <string name="clearitemalrt_en">Are you sure want to clear cart items?</string>
+    <string name="clearitemalrt_ar">هل تريد بالتأكيد مسح عناصر سلة التسوق؟</string>
+
+    <string name="yes_en">Yes</string>
+    <string name="yes_ar">نعم فعلا</string>
+
+    <string name="no_en">No</string>
+    <string name="no_ar">لا</string>
+
+    <string name="subtotal_en">Subtotal</string>
+    <string name="subtotal_ar">المجموع</string>
+
+    <string name="additems_en">Add Items</string>
+    <string name="additems_ar">إضافة عناصر</string>
+
+    <string name="extrastuff_en">Extra Stuff</string>
+    <string name="extrastuff_ar">الاشياء اضافية</string>
+
+    <string name="myaddress_en">My Address for Delivery</string>
+    <string name="myaddress_ar">عنوان التوصيل</string>
+
+    <string name="edit_en">Edit</string>
+    <string name="edit_ar">تعديل</string>
+
+    <string name="now_en">Now</string>
+    <string name="now_ar">الآن</string>
+
+    <string name="later_en">Later</string>
+    <string name="later_ar">في وقت لاحق</string>
+
+    <string name="select_later_en">Select Later Date and Time</string>
+    <string name="select_later_ar">لاحقًا حدد التاريخ والوقت</string>
+
+    <string name="subprice_en">Sub Price</string>
+    <string name="subprice_ar">سعر ثانوي</string>
+
+    <string name="tax_en">Tax</string>
+    <string name="tax_ar">ضريبة</string>
+
+    <string name="delivery_en">Delivery</string>
+    <string name="delivery_ar">توصيل</string>
+
+    <string name="ordernow_en">Order Now</string>
+    <string name="ordernow_ar">اطلب الان</string>
+
+    <string name="summary_en">Summary</string>
+    <string name="summary_ar">ملخص</string>
+
+    <string name="doyouhaveoffer_en">Do you have offer code ?</string>
+    <string name="doyouhaveoffer_ar">هل لديك رمز العرض؟</string>
+
+    <string name="usecode_en">USE CODE</string>
+    <string name="usecode_ar">استخدام الكود</string>
+
+    <string name="extra_add_en">Extra add</string>
+    <string name="extra_add_ar">اضافات</string>
+
+    <string name="near_en">Near</string>
+    <string name="near_ar">قريب</string>
+
+    <string name="comment_en">Comment</string>
+    <string name="comment_ar">تعليق</string>
+
+    <string name="near_valid_en">Please enter nearest landmark</string>
+    <string name="near_valid_ar">الرجاء إدخال أقرب معلم</string>
+
+    <string name="building_valid_en">Please enter building number</string>
+    <string name="building_valid_ar">الرجاء إدخال رقم المبنى</string>
+
+    <string name="select_search_br_en">Select or Search Branch</string>
+    <string name="select_search_br_ar">حدد أو ابحث عن فرع</string>
+
+    <string name="selectbr_msg_en">Please select a branch</string>
+    <string name="selectbr_msg_ar">يرجى اختيار الفرع</string>
+
+    <string name="nameofpicker_en">Name of Picker</string>
+    <string name="nameofpicker_ar">اسم المستلم</string>
+
+    <string name="nameofpicker_valid_en">Please enter name of picker</string>
+    <string name="nameofpicker_valid_ar">يرجى إدخال اسم المستلم</string>
+
+    <string name="discount_en">Discount</string>
+    <string name="discount_ar">خصم</string>
+
+    <string name="paymentoption_en">Payment Options</string>
+    <string name="paymentoption_ar">خيارات الدفع</string>
+
+    <string name="cashondelivery_en">Cash on Delivery(COD)</string>
+    <string name="cashondelivery_ar">الدفع عند الاستلام (COD)</string>
+
+    <string name="cashonpickup_en">Cash on PickUp(COP)</string>
+    <string name="cashonpickup_ar">الدفع عند الإستلام</string>
+
+    <string name="visamastercard_en">Visa/Master Card</string>
+    <string name="visamastercard_ar">فيزا ماستركارد</string>
+
+    <string name="paypal_en">PayPal</string>
+    <string name="paypal_ar">باي بال</string>
+
+    <string name="pickup_information_en">Pick up from restaurant</string>
+    <string name="pickup_information_ar">معلومات الاستلام من المطعم</string>
+
+    <string name="cardpayment_en">Card Payment</string>
+    <string name="cardpayment_ar">بطاقه ائتمان</string>
+
+    <string name="amount_en">Amount</string>
+    <string name="amount_ar">كمية</string>
+
+    <string name="date_en">Date</string>
+    <string name="date_ar">تاريخ</string>
+
+    <string name="transaction_en">Transaction NO</string>
+    <string name="transaction_ar">رقم العملية التجارية</string>
+
+    <string name="nameofcard_en">NAME OF CARD</string>
+    <string name="nameofcard_ar">اسم البطاقة</string>
+
+    <string name="card_number_en">CARD NUMBER</string>
+    <string name="card_number_ar">رقم البطاقة</string>
+
+    <string name="expire_month_en">EXPIRE MONTH</string>
+    <string name="expire_month_ar">شهر الانتهاء</string>
+
+    <string name="expire_year_en">EXPIRE YEAR</string>
+    <string name="expire_year_ar">سنة الانتهاء</string>
+
+    <string name="cvv_en">CVV</string>
+    <string name="cvv_ar">CVV</string>
+    <string name="mm_en">MM</string>
+    <string name="mm_ar">MM</string>
+    <string name="yy_en">YY</string>
+    <string name="yy_ar">YY</string>
+
+    <string name="paynow_en">Pay Now</string>
+    <string name="paynow_ar">ادفع الآن</string>
+
+    <string name="cardname_en">Enter name on card</string>
+    <string name="cardname_ar">أدخل الاسم البطاقة</string>
+
+    <string name="cardnumber_en">Enter number on card</string>
+    <string name="cardnumber_ar">أدخل الرقم البطاقة</string>
+
+    <string name="expirymonth_en">Enter expiry month</string>
+    <string name="expirymonth_ar">أدخل شهر انتهاء الصلاحية</string>
+
+    <string name="expiryyear_en">Enter expiry year</string>
+    <string name="expiryyear_ar">أدخل سنة انتهاء الصلاحية</string>
+
+    <string name="cvvnumber_en">Enter cvv on card</string>
+    <string name="cvvnumber_ar">ادخل ال cvv الخاص للبطاقة</string>
+
+    <string name="shift_en">Shift For Next Day</string>
+    <string name="shift_ar">الطلب في اليوم التالي</string>
+
+    <string name="close_msg_en">The restaurant is closed at this time , the opening time is</string>
+    <string name="close_msg_ar">المطعم مغلق في هذا الوقت اوقات الافتتاح</string>
+
+    <string name="order_id_en">Order ID</string>
+    <string name="order_id_ar">رقم الطلب</string>
+
+    <string name="order_title_en">Order Title</string>
+    <string name="order_title_ar">عنوان الطلب</string>
+
+    <string name="change_profile_en">Change Profile</string>
+    <string name="change_profile_ar">تغيير الملف الشخصي</string>
+
+    <string name="change_password_en">Change Password</string>
+    <string name="change_password_ar">غير كلمة السر</string>
+
+    <string name="old_password_en">Old Password</string>
+    <string name="old_password_ar">كلمة المرور القديمة</string>
+
+    <string name="password_old_en">Please enter old Password</string>
+    <string name="password_old_ar">يرجى إدخال كلمة المرور القديمة</string>
+
+    <string name="password_new_en">Please enter new Password</string>
+    <string name="password_new_ar">يرجى إدخال كلمة مرور جديدة</string>
+
+    <string name="order_confirm_msg_en">Your order is created successfully, please wait for confirmation in minutes</string>
+    <string name="order_confirm_msg_ar">تم تسجيل طلبك بنجاح , يرجى انتظار رسالة تاكيد خلال دقائق</string>
+
+    <string name="ok_en">OK</string>
+    <string name="ok_ar">حسنا</string>
+
+    <string name="am_en">AM</string>
+    <string name="am_ar">ص</string>
+
+    <string name="pm_en">PM</string>
+    <string name="pm_ar">م</string>
+
+    <string name="upselling_en">Related items</string>
+    <string name="upselling_ar">عناصر مرتبطة</string>
+
+    <string name="email_mobile_en">Email/mobile no</string>
+    <string name="email_mobile_ar">البريد الإلكتروني / المحمول لا</string>
+
+    <string name="edit_address_en">Please enter address required field.</string>
+    <string name="edit_address_ar">يرجى إدخال حقل العنوان المطلوب.</string>
+
+    <string name="term_en">Terms and Conditions</string>
+    <string name="term_ar">الأحكام والشروط</string>
+
+    <string name="privacy_en">Privacy</string>
+    <string name="privacy_ar">الإجمالية</string>
+
+    <string name="channel_name">Rakoon</string>
+    <string name="channel_description">Rakoon Restaurant</string>
+
+
+    <string name="update_title">UPDATE AVAILABLE</string>
+    <string name="update_message">A newer and improved version of the app \"Rakoon Restaurants\" Anywhere Personal is available. Please update for better experience.</string>
+    <string name="update_now">UPDATE NOW</string>
+    <string name="reminder_later">REMIND ME LATER</string>
+
+</resources>
+

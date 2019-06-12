@@ -1,0 +1,6 @@
+PaymentURL=https://srstaging.stspayone.com/SmartRoutePaymentWeb/SRMsgHandler
+ApproveURL=https://srstaging.stspayone.com/SmartRoutePaymentWeb/SRMsgHandler
+InquiryURL=https://srstaging.stspayone.com/SmartRoutePaymentWeb/SRMsgHandler
+RefundURL=https://srstaging.stspayone.com/SmartRoutePaymentWeb/SRMsgHandler
+MerchantAuthenticationTokenFetchURL=
+ByPassSecureHashValidationForResponse=N

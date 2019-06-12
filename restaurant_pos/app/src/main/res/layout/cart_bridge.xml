@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_50sdp"
+    android:layout_height="fill_parent"
+    android:layout_gravity="right"
+    android:gravity="center">
+
+    <FrameLayout
+        android:id="@+id/cartclick"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_5sdp">
+
+        <ImageView
+            android:layout_marginRight="@dimen/_2sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:src="@drawable/cart" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:background="@drawable/checkbox_blank_circle">
+
+            <TextView
+                android:id="@+id/actionbar_notifcation_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/_2sdp"
+                android:text=""
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/_10sdp" />
+        </FrameLayout>
+    </FrameLayout>
+    <!-- Menu Item Image -->
+
+
+    <!-- Badge Count -->
+
+
+</RelativeLayout>

@@ -1,0 +1,3 @@
+PaymentDescription
+Response.GatewayStatusDescription
+Response.StatusDescription

@@ -1,0 +1,12 @@
+<com.rakoon.restaurant.view.MyTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text1"
+    style="?android:attr/spinnerDropDownItemStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/_10sdp"
+    android:paddingLeft="@dimen/_10sdp"
+    android:paddingRight="@dimen/_10sdp"
+    android:singleLine="true"
+    android:paddingTop="@dimen/_10sdp"
+    android:textSize="@dimen/_12sdp"
+    />

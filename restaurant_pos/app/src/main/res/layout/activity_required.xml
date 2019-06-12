@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainlay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RequiredActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.rakoon.restaurant.view.MyTextView
+            android:id="@+id/required"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/_10sdp"
+            android:paddingTop="@dimen/_7sdp"
+            android:paddingRight="@dimen/_10sdp"
+            android:paddingBottom="@dimen/_7sdp"
+            android:text="Required Modification"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+    <!--    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_weight="0.6">-->
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.6"
+                android:scrollbars="vertical"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+   <!--     </RelativeLayout>-->
+
+        <com.rakoon.restaurant.view.MyTextView
+            android:id="@+id/optional"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/_10sdp"
+            android:paddingTop="@dimen/_7sdp"
+            android:paddingRight="@dimen/_10sdp"
+            android:paddingBottom="@dimen/_7sdp"
+            android:text="Optional Modification"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+<!--        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_weight="0.4">-->
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerViewoptional"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.4"
+                android:scrollbars="vertical"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        <!--</RelativeLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="@dimen/_5sdp">
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <com.rakoon.restaurant.view.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:background="@null"
+                    android:inputType="number"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_5sdp"
+                    android:text="Price:"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/_14sdp" />
+
+                <com.rakoon.restaurant.view.MyTextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:background="@null"
+                    android:inputType="number"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_5sdp"
+                    android:text="0"
+                    android:textSize="@dimen/_14sdp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_red"
+                android:gravity="center"
+                >
+
+                <com.rakoon.restaurant.view.MyTextView
+                    android:paddingRight="@dimen/_15sdp"
+                    android:paddingLeft="@dimen/_15sdp"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:id="@+id/minus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="-"
+                    android:textStyle="bold"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/_12sdp" />
+
+                <com.rakoon.restaurant.view.MyTextView
+                    android:layout_width="@dimen/_1sdp"
+                    android:layout_height="match_parent"
+                    android:background="@color/red" />
+
+                <com.rakoon.restaurant.view.MyTextView
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:id="@+id/count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/_12sdp" />
+
+                <com.rakoon.restaurant.view.MyTextView
+                    android:layout_width="@dimen/_1sdp"
+                    android:layout_height="match_parent"
+                    android:background="@color/red" />
+
+                <com.rakoon.restaurant.view.MyTextView
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_15sdp"
+                    android:paddingLeft="@dimen/_15sdp"
+                    android:id="@+id/plus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="+"
+                    android:textStyle="bold"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/_12sdp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!-- <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center">
+
+             <ImageView
+                 android:id="@+id/plus"
+                 android:layout_width="@dimen/_40sdp"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:adjustViewBounds="true"
+                 android:padding="@dimen/_5sdp"
+                 android:src="@drawable/plus" />
+
+             <com.restaurant.pos.view.MyTextView
+                 android:id="@+id/count"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:background="@null"
+                 android:inputType="number"
+                 android:maxLength="2"
+                 android:paddingLeft="@dimen/_5sdp"
+                 android:paddingRight="@dimen/_5sdp"
+                 android:text="1"
+                 android:textSize="@dimen/_14sdp" />
+
+             <ImageView
+                 android:id="@+id/minus"
+                 android:layout_width="@dimen/_40sdp"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:adjustViewBounds="true"
+                 android:padding="@dimen/_5sdp"
+                 android:src="@drawable/minus" />
+
+         </LinearLayout>
+ -->
+        <com.rakoon.restaurant.view.MyTextView
+
+            android:id="@+id/addtocart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/border_red"
+            android:paddingLeft="@dimen/_10sdp"
+            android:paddingTop="@dimen/_10sdp"
+            android:paddingRight="@dimen/_10sdp"
+            android:paddingBottom="@dimen/_10sdp"
+            android:text="@string/addtocart_en"
+            android:textColor="@color/red"
+            android:textSize="@dimen/_12sdp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

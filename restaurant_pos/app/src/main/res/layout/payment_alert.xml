@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.rakoon.restaurant.view.MyTextView
+            android:id="@+id/paymentdescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14sdp" />
+
+        <com.rakoon.restaurant.view.MyTextView
+            android:layout_marginTop="@dimen/_5sdp"
+            android:id="@+id/paymentstatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="@dimen/_12sdp" />
+
+
+        <com.rakoon.restaurant.view.MyTextView
+            android:layout_marginTop="@dimen/_5sdp"
+            android:id="@+id/paymentdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="@dimen/_12sdp" />
+
+        <com.rakoon.restaurant.view.MyTextView
+            android:layout_marginTop="@dimen/_5sdp"
+            android:id="@+id/paymentamount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="@dimen/_12sdp" />
+
+        <com.rakoon.restaurant.view.MyTextView
+            android:layout_marginTop="@dimen/_5sdp"
+            android:id="@+id/paymentid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="@dimen/_12sdp" />
+
+        <com.rakoon.restaurant.view.MyTextView
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:background="@drawable/textselector2"
+            android:gravity="center"
+            android:paddingLeft="@dimen/_40sdp"
+            android:paddingTop="@dimen/_7sdp"
+            android:paddingRight="@dimen/_40sdp"
+            android:paddingBottom="@dimen/_7sdp"
+            android:text="OK"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sdp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

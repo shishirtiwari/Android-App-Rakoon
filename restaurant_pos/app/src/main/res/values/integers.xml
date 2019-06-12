@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="delay">2000</integer>
+    <integer name="listcount">10</integer>
+    <integer name="length6">6</integer>
+    <integer name="length15">15</integer>
+    <integer name="length50">50</integer>
+    <integer name="length100">100</integer>
+    <integer name="length200">200</integer>
+    <integer name="length20">20</integer>
+    <integer name="length30">30</integer>
+</resources>
